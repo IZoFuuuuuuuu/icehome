@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Website</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h1 class="logo">Ice Planet</h1>
+        <div class="toggle"></div>
+      </header>
+
+      <video src="C:\Users\064\vscode\ice\ice-home\images\-21.mp4" autoplay muted loop></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>ICE PLANET</h2>
+        <h3>          </h3>
+        <p>『アイスプラネット』についてまとめて見ました(⌒∇⌒)</p>
+        <a href="#">Dive Into</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href=""><img src="/logo-twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="/logo-discord.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="/logo-instagram.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href=""><ion-icon name="home-outline"></ion-icon> Home</a></li>
+        <li><a href=""><ion-icon name="images-outline"></ion-icon> Photo</a></li>
+        <li><a href=""><ion-icon name="book-outline"></ion-icon> Book</a></li>
+        <li><a href=""><ion-icon name="code-outline"></ion-icon> Code</a></li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", function () {
+        /* activeにする */
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
