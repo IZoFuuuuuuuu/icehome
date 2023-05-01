@@ -45,9 +45,9 @@
 }
 
 .toggle {
-    background: #b0c4de;
-    width: 60px;
-    height: 60px;
+    background: url(menu.png);
+    width: 80px;
+    height: 80px;
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,9 +58,9 @@
 
 
 .toggle.active {
-    background: #4682b4;
-    width: 60px;
-    height: 60px;
+    background: url(close.png);
+    width: 80px;
+    height: 80px;
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
